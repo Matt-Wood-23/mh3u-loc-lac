@@ -1,9 +1,18 @@
 # Loc Lac City for Monster Hunter 3 Ultimate
 
 Loc Lac City from Monster Hunter Tri, brought into Monster Hunter 3 Ultimate on Cemu. It takes
-the place of Port Tanzia: go to the port the way you always do and you arrive in Loc Lac.
+the place of Port Tanzia: go to the port the way you always do and you arrive in Loc Lac. It is not
+an exact 1:1 of the original Loc Lac, but that was part of the goal. Keep some of Tanzia alive and
+make it a fun and useful replacement with the npc customization.
 
-Version 0.1.0-beta. Made by Matt.
+Version 0.1.0-beta.
+
+[![Loc Lac City showcase on YouTube](https://img.youtube.com/vi/8axcP6V4mkg/maxresdefault.jpg)](https://youtu.be/8axcP6V4mkg)
+
+▶ [Watch the 6-minute showcase on YouTube](https://youtu.be/8axcP6V4mkg)
+
+![loc-lac-multiplayer](image.png)
+![loc-lac-night](image-1.png)
 
 ## What's in it
 
@@ -23,7 +32,8 @@ pack off brings Port Tanzia back.
 
 ## What you need
 
-- **Cemu** (a recent 2.x version).
+- **Cemu** (a recent 2.x version), preferably my fork, since that's what the pack was tested on.
+  It comes with [MH3U Revival](https://github.com/Matt-Wood-23/mh3u-revival).
 - **Monster Hunter 3 Ultimate, US or EU, with the v1.3 update installed.** In Cemu's game list
   the game should show version **v32**. Without the update the pack can't work: the town files
   load but the rest doesn't.
@@ -71,7 +81,6 @@ Lac are laid out differently.
 - The room's furniture layout isn't saved. It resets the next time you play.
 - The City Greeter speaks English in every language.
 - Changing a setting needs a game restart.
-- In a room where some players don't use the pack, the town looks odd for everyone (see above).
 
 ## Problems and feedback
 
@@ -94,3 +103,10 @@ lists four lines starting `Applying patch group 'MH3U_LocLac_`.
 
 Loc Lac City, its music and Monster Hunter are © Capcom. This is an unofficial fan project, not
 made or endorsed by Capcom. You need your own copy of Monster Hunter 3 Ultimate to use it.
+
+## AI disclosure
+
+This mod was made with a lot of help from AI (Claude, by Anthropic): working out how the game is
+built, writing the patches and tools, drafting the City Greeter's new lines, and writing this
+page. I directed the work, picked and edited the lines, and tested everything in-game. There is
+no AI-generated art or music: every model, texture and track comes from Capcom's own games.
