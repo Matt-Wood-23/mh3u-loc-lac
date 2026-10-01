@@ -1,0 +1,4 @@
+# The release zip ships on GitHub Releases only, never in git history.
+*.zip
+build/
+*.log
